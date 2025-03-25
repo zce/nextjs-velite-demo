@@ -1,7 +1,6 @@
 name: setup-node
 description: "Setup Node.js ⚙️ - Cache dependencies ⚡ - Install dependencies 🔧"
 runs:
-  using: "composite"
   steps:
     - name: Install pnpm 🔧
       uses: pnpm/action-setup@v4
