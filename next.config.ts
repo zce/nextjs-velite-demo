@@ -11,5 +11,6 @@ if (!process.env.VELITE_STARTED && (isDev || isBuild)) {
 }
 
 export default {
+  basePath: '/nextjs-velite-demo',
   output: "export"
 } satisfies NextConfig
